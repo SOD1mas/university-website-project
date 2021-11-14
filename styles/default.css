@@ -13,6 +13,11 @@ body
 
 	overflow-x: hidden;
 	overflow-y: hidden;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	background-size: cover;
 }
 
 hr
