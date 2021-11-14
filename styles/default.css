@@ -83,6 +83,14 @@ hr
 	color: #696969;
 }
 
+.content-separator
+{
+	width: 35%;
+
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
 .header-content
 {
 	font-style: bold;

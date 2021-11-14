@@ -12,6 +12,15 @@ body
 	border-radius: 20px;
 
 	box-shadow: 0 0 15px rgba(0, 0, 0, 5);
+
+	transition-property: transform;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;
+}
+
+.john-photo:hover
+{
+	transform: scale(1.15);
 }
 
 .quote-content
@@ -30,12 +39,4 @@ body
 	width: 25%;
 
 	margin-right: 15%;
-}
-
-.content-separator
-{
-	width: 35%;
-
-	margin-top: 1%;
-	margin-bottom: 1%;
 }
