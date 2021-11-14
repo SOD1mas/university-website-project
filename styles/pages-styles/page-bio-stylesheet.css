@@ -1,4 +1,7 @@
-
+.background-image-controller
+{
+	background-repeat: repeat-y !important;
+}
 
 .cases-list
 {
