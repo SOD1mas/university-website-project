@@ -1,7 +1,48 @@
-
+.background-image-controller
+{
+	background-repeat: repeat-y !important;
+}
 
 .cases-list
 {
 	padding-left: 15%;
 	padding-right: 15%;
+}
+
+.book-photo
+{
+	width: 30%;
+	height: auto;
+	
+	border-radius: 20px;
+
+	box-shadow: 0 0 15px rgba(0, 0, 0, 5);
+
+	transition-property: transform;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;
+}
+
+.book-photo:hover
+{
+	transform: scale(1.15);
+}
+
+.computer-photo
+{
+	width: 40%;
+	height: auto;
+	
+	border-radius: 20px;
+
+	box-shadow: 0 0 15px rgba(0, 0, 0, 5);
+
+	transition-property: transform;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;
+}
+
+.computer-photo:hover
+{
+	transform: scale(1.15);
 }
